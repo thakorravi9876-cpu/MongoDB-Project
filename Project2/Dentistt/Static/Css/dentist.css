@@ -1,0 +1,51 @@
+header{
+    height: 150px;
+    background: #0072F5;
+  
+}
+.hicons{
+    width: 10% ;
+}
+.hbottom img{
+    height: 32.5px;
+    width: 128px;
+}
+.hbottom ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.hbottom button{
+    color: #0072F5;
+}
+.hbottom button:hover
+{
+  background: #0072F5;
+  color: antiquewhite;
+  
+}
+.footer{
+    height: 500px;
+}
+
+.ftwo ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.hero1{
+    height: 650px;
+    background: #0072F5;
+    
+}
+.heroleft h1{
+    font-size: 64px;
+    font-weight: bolder;
+}
+.heroleft button{
+    height: 46px;
+    width: 251px;
+}
+.heroimgbg{
+background: #69ACF9;
+height: 600px;
+width: 600px;
+}

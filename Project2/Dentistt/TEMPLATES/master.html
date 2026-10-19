@@ -1,0 +1,103 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header_Footer</title>
+    <link rel="stylesheet" href="{%static 'Bootstrap/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{%static 'Css/dentist.css' %}">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+    <header> 
+        <div class="d-flex justify-content-between htop p-3 ms-5">
+      <div class="hicons  d-flex justify-content-evenly">
+    <i class="fa-brands fa-linkedin-in" style="color: rgb(255, 255, 255);"></i>
+   <i class="fa-brands fa-facebook" style="color: rgb(255, 255, 255);"></i>
+   <i class="fa-brands fa-twitter" style="color: rgb(255, 255, 255);"></i>
+        </div>
+       <p class="text-white me-4">Call: (+1) 123-456-7890</p>
+       </div>
+
+        <div class="hbottom d-flex justify-content-evenly align-items-center  ">
+       
+        <div class="align-self-start col-2">
+       <img class="mt-1" src="{%static 'img/site-logo-white.svg'%}" alt="">
+      </div>
+
+
+
+       <div class= "  col-6 ">
+         <ul class="list-unstyled text-decoration-none d-flex gap-5 mt-2 ">
+            <li class=""><a href="">Home</a></li>
+            <li class="ms-3"><a href="">About</a></li>
+            <li class="ms-3"><a href="">Services</a></li>
+            <li class="ms-3 "><a href="">Contact</a></li>
+         </ul>
+         </div>
+
+<button class="btn btn-light ms-5 mb-3">APPOINTMENT</button>
+
+    </header>
+
+    <footer>
+        <div class="ftop d-flex align-items-center p-5 border     "> 
+        <div class="fone w-25 ">
+               <img class="mt-1 mb-5" src="{%static 'img/site-logo-dark.svg'%}" alt="">
+               <p class="text-secondary">We are committed to providing gentle, personalized dental care to keep your smile healthy and confident. From routine checkups to advanced treatments, our goal is to make every visit comfortable and stress-free. Your smile is our priority!</p>
+               <div class="ficons1 w-75 d-flex gap-5 justify-content-center mt-5">
+                <i class="fa-brands  fa-facebook "></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+        <div class="ftwo w-25  d-flex flex-column p-5"> 
+            <h3 class="mb-5">Quick Links</h3>
+         
+                <ul class="list-unstyled text-decoration-none d-flex gap-1 flex-column"> 
+                    <li class=""><a class="text-black text-decoration-none" href="">About Us</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">Dentists</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">All Services</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">Dental Health</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">Treatments</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">Appointments</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">Contact Us</a></li>
+                   
+                </ul>
+           
+        </div>
+        <div class="fthree w-25   d-flex flex-column p-5">
+              <h3 class="mb-5 ">Services</h3>
+         
+                <ul class="list-unstyled text-decoration-none d-flex gap-1 flex-column"> 
+                    <li class=""><a class="text-black text-decoration-none" href="">Cosmetic Destistry</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">Dental X-Rays</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">Root Canals</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">Braces & Implants</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">Extractions</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">Teeth Whitening</a></li>
+                    <li class=""><a class="text-black text-decoration-none" href="">Periodontal Disease</a></li>
+                   
+                </ul>
+        </div>
+        <div class="ffour w-25  d-flex flex-column p-5">
+             <h3 class="mb-5">Business Hours</h3>
+         
+                <ul class="list-unstyled text-decoration-none d-flex gap-1 flex-column"> 
+                    <li class=""><a class=" text-decoration-none text-secondary" href="">Monday: 11.00 - 09.00</a></li>
+                    <li class=""><a class=" text-decoration-none text-secondary" href="">Tuesday: 11.00 - 09.00</a></li>
+                    <li class=""><a class=" text-decoration-none text-secondary" href="">WEdnesday: 11.00 - 09.00</a></li>
+                    <li class=""><a class=" text-decoration-none text-secondary" href="">Thursday: 11.00 - 09.00</a></li>
+                    <li class=""><a class=" text-decoration-none text-secondary" href="">Friday: 11.00 - 09.00</a></li>
+                    <li class=""><a class=" text-decoration-none text-secondary" href="">Saturday: 11.00 - 09.00</a></li>
+                    <li class=""><a class=" text-decoration-none text-secondary" href="">Sunday : Closed</a></li>
+                  
+                   
+                </ul>
+        </div>
+    </div>
+      
+    </footer>
+</body>
+</html>
