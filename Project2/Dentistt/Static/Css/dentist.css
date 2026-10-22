@@ -49,3 +49,13 @@ background: #69ACF9;
 height: 600px;
 width: 600px;
 }
+.hbtn1{
+    background-color: #8eaece85;
+    width: 152px;
+    height: 44px;
+}
+
+.hbtn1:hover{
+    background-color:#0474F5;
+    color: white;
+}
