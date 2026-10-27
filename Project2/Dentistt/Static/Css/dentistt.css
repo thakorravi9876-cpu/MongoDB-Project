@@ -50,12 +50,19 @@ height: 600px;
 width: 600px;
 }
 .hbtn1{
-    background-color: #8eaece85;
+    background-color: #8caecf85;
     width: 152px;
     height: 44px;
+    color: blue;
+    border-radius: 5px;
 }
 
 .hbtn1:hover{
-    background-color:#0474F5;
-    color: white;
+    background-color:#0072F5;
+   color: white;
+}
+.cntr1{
+    height: 483px;
+    width: 369px;
+    border: 1px solid red
 }
