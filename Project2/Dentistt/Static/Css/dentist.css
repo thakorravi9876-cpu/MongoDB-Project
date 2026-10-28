@@ -66,3 +66,10 @@ width: 600px;
     width: 369px;
     border: 1px solid red
 }
+.hbtn2{
+    /* background-color: #8caecf85; */
+     height: 46px;
+     width: 215px;
+    color: blue;
+    border-radius: 5px;
+}
